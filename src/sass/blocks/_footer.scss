@@ -1,0 +1,94 @@
+.footer {
+    height: 630px;
+    position: relative;
+    &__info {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 460px;
+        height: 270px;
+        background-color: $main-color;
+        padding: 50px 68px 60px 68px;
+    }
+    &__addr {
+        margin-bottom: 36px;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: center;
+    }
+    &__phone {
+        display: block;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 20px;
+        margin-bottom: 38px;
+        text-align: center;
+        margin-top: 36px;
+        &:hover {
+            color: #fff;
+        }
+    }
+    &__social-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        border: 2px solid #ffffff;
+        border-radius: 100%;
+        margin: 0 13px;
+        img {
+            height: 27px;
+        }
+    }
+    &__social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__map {
+        width: 100%; 
+        height: 630px;
+        border: 0;
+     }
+}
+
+@media (max-width: 900px) {
+    .footer {
+        position: relative;
+        &__info {
+            position: absolute;
+            width: 306px;
+            height: 180px;
+            padding: 28px 30px 35px 30px;
+        }
+        &__addr {
+        margin-bottom: 20px;
+        font-size: 15px;
+        font-weight: 400;
+        }
+        &__phone {
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 25px;
+        margin-top: 28px;
+        }
+        &__social-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 38px;
+        height: 38px;
+        border: 2px solid #ffffff;
+        border-radius: 100%;
+        margin: 0 9px;
+        img {
+            height: 20px;
+        }
+        }
+    }
+}
