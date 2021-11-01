@@ -1,5 +1,11 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/slick';
+@import 'libs/fonts.min';
+@import 'libs/_style.scss.map'
+
 @import 'base/variables';
 @import 'base/animations';
+
 
 body {
      margin: 0;
