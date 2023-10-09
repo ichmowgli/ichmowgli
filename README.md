@@ -1,11 +1,1 @@
-<p>
-  <a>
-    <img width="100%" src="https://github-widgetbox.vercel.app/api/profile?username=ichmowgli&data=followers,repositories,stars,commits&theme=default" alt="GitHub WidgetBox" />
-  </a>
-  <a>
-    <img width="49%" src="https://github-widgetbox.vercel.app/api/skills?frameworks=react,next,vue,tailwind,bootstrap,laravel&tools=git,npm,yarn,webpack,wordpress,nodejs,prettier&includeNames=true&theme=default" alt="GitHub WidgetBox" />
-  </a>
-  <a>
-    <img width="49%" src="https://github-widgetbox.vercel.app/api/skills?languages=js,ts,php&includeNames=true&theme=default" alt="GitHub WidgetBox" />
-  </a>
-</p>
+[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://stand-with-ukraine.pp.ua)
